@@ -16,9 +16,9 @@ export default class App extends Component<{}> {
     render() {
         return (
             <View style={ styles.container }>
-              <View style={ [ styles.box, { flex: 1 } ] } />
-              <View style={ [ styles.box, { flex: 2 } ] } />
-              <View style={ [ styles.box, { flex: 1 } ] } />
+              <View style={ [ styles.box ] } />
+              <View style={ [ styles.box, { alignSelf: 'flex-end' } ] } />
+              <View style={ [ styles.box ] } />
             </View>
         );
     }
